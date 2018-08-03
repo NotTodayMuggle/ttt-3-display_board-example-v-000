@@ -6,6 +6,7 @@ def display_board
   Row = "-----------"
 
   puts celll cell cellr
+  puts Row
   puts celll cell cellr
   puts Row
   puts celll cell cellr
