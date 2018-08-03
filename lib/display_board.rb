@@ -1,12 +1,14 @@
+CellL = "   |"
+CellR = "|   "
 Cell = "   "
 Row = "-----------"
 def display_board
 
-print Cell "|" Cell  "|"
+print CellL Cell CellR
 puts Row
-print Cell "|" Cell  "|"
+print CellL Cell CellR
 puts Row
-print Cell "|" Cell  "|"
+print CellL Cell CellR
 
 end
 display_board
