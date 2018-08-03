@@ -1,15 +1,13 @@
   def display_board
 
-  celll = "   |"
-  cellr = "|   "
   cell = "   "
 
 
-  puts celll cell cellr
+  puts cell +"|" cell "|"+ cell
   puts "-----------"
-  puts celll cell cellr
+  puts cell +"|" cell "|"+ cell
   puts "-----------"
-  puts celll cell cellr
+  puts cell +"|" cell "|"+ cell
 
   end
 display_board
