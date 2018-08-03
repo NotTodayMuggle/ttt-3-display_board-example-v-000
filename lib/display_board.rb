@@ -1,4 +1,4 @@
-def display_board
+  def display_board
 
   celll = "   |"
   cellr = "|   "
@@ -11,5 +11,5 @@ def display_board
   puts Row
   puts celll cell cellr
 
-end
+  end
 display_board
