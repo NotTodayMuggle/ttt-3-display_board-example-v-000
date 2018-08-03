@@ -1,17 +1,14 @@
-celll = "   |"
-cellr = "|   "
-cell = "   "
-Row = "-----------"
-
 def display_board
 
+  celll = "   |"
+  cellr = "|   "
+  cell = "   "
+  Row = "-----------"
 
-
-print celll cell cellr
-puts Row
-print celll cell cellr
-puts Row
-print celll cell cellr
+  puts celll cell cellr
+  puts celll cell cellr
+  puts Row
+  puts celll cell cellr
 
 end
 display_board
