@@ -2,11 +2,11 @@ Cell = "   "
 Row = "-----------"
 def display_board
 
-print "Cell" "|" "Cell"  "|"
+print Cell "|" Cell  "|"
 puts Row
-print "Cell" "|" "Cell"  "|"
+print Cell "|" Cell  "|"
 puts Row
-print "Cell" "|" "Cell"  "|"
+print Cell "|" Cell  "|"
 
 end
 display_board
