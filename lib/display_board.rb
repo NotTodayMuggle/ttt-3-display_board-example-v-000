@@ -3,12 +3,12 @@
   celll = "   |"
   cellr = "|   "
   cell = "   "
-  Row = "-----------"
+
 
   puts celll cell cellr
-  puts Row
+  puts "-----------"
   puts celll cell cellr
-  puts Row
+  puts "-----------"
   puts celll cell cellr
 
   end
